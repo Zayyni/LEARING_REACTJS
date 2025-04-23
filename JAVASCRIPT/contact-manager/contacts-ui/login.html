@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="../bootstrap/icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>BS Contact Manger</title>
+  </head>
+  <body>
+    <!-- Main nav bar -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand">
+          <i class="bi bi-phone"></i>
+          Contact <span class="text-warning">Manager</span></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#simple-navbar"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="simple-navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="login.html" class="nav-link"> <i class="bi bi-lock"></i>Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="register.html" class="nav-link">
+                <i class="bi bi-person-add"></i>Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Login form -->
+    <section class="mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="h3 text-primary">Login Here</p>
+                    <p class="fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eaque sed maiores culpa natus vero praesentium, autem ex soluta nobis voluptas, quam laudantium eum odio obcaecati ipsam saepe sunt. Labore consequuntur consectetur ut in sunt ab nemo ad deleniti quos?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <form action="">
+                        <div class="mb-2">
+                            <input type="email" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="mb-2">
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+
+                        <div class="mb-2">
+                            <input class="btn btn-success" value="Login" type="submit">
+                            <a href="../index.html" class="btn btn-dark">Cancel</a>
+                        </div>
+                    </form>
+                    <small>Don't have an account?
+                      <a href="register.html" class="fw-bold text-decoration-none text-success">Register</a>
+                    </small>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+  </body>
+</html>
